@@ -1,0 +1,30 @@
+<template>
+    <lightning-icon
+        icon-name={iconName}
+        alternative-text={altText}
+        onclick={handleButtonClick}
+        class="slds-var-m-left_medium"
+        size="small"
+        title={title}
+        variant={variant}
+    ></lightning-icon>
+    <div
+        if:true={showPopover}
+        class="outside-click-capture"
+        onclick={handleOutsideClick}
+    ></div>
+    <section
+        if:true={showPopover}
+        class="
+            slds-popover
+            slds-nubbin_left-top
+            slds-var-m-left_small
+            slds-popover_small
+        "
+        role="dialog"
+    >
+        <div class="slds-popover__body">
+            <slot name="body"></slot>
+        </div>
+    </section>
+</template>
