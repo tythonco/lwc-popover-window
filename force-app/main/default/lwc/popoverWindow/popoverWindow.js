@@ -1,7 +1,7 @@
 import { LightningElement, api } from 'lwc';
 
 /**
- * A geneeric popover button utility component that displays the specified icon name with the
+ * A generic popover button utility component that displays the specified icon name with the
  * given attributes.
  * @param iconName: Passed onto the button's `iconName` attribute
  * @param altText: Passed onto the button's `alternativeText` attribute
