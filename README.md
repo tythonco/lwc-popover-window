@@ -1,5 +1,7 @@
 # Popover Window Lighting Web Component
 
+> Note: This article originally appeared on the [Tython blog](https://tython.co/salesforce/lightning%20web%20components/2024/01/12/popup-window.html).
+
 [Chuck Ross](https://www.tython.co/)
 
 Pop! There it is!
